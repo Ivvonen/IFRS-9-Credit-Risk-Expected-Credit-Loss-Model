@@ -91,6 +91,26 @@ c3.metric("Portfolio ECL Provision Coverage", f"{ecl_coverage_ratio:.2f}%")
 st.markdown("---")
 chart_col, details_col = st.columns([2, 1])
 
+st.markdown(
+    """
+    <style>
+    @import url('https://cdnfonts.com');
+    
+    /* Apply LaTeX font to the entire app body, markdown text, and paragraphs */
+    html, body, [data-testid="stMarkdownContainer"] p {
+        font-family: 'Latin Modern Roman', 'Computer Modern Roman', 'Times New Roman', serif !important;
+        font-size: 17px !important;
+    }
+    
+    /* Apply LaTeX font to headers to give it that academic paper layout */
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Latin Modern Roman', 'Computer Modern Roman', 'Times New Roman', serif !important;
+        font-weight: bold !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 with chart_col:
     st.subheader("Credit Quality Staging & Capital Allocation Matrix")
     
