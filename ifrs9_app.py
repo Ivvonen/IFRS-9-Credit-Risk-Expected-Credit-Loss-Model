@@ -111,7 +111,7 @@ with details_col:
     st.subheader("Asset Staging Concentration")
     stage_counts = portfolio_calculated['Stage'].value_counts()
     
-    for s in:
+    for s in [1, 2, 3]:
         count = stage_counts.get(s, 0)
         percentage = (count / total_loans) * 100
         stage_desc = {
