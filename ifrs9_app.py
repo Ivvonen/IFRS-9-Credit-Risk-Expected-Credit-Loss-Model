@@ -45,8 +45,8 @@ class IFRS9ECLEngine:
 
 # --- STREAMLIT USER INTERFACE ---
 st.set_page_config(page_title="IFRS 9 Credit Risk Engine", layout="wide")
-st.title("IFRS 9 Expected Credit Loss (ECL) Impairment Engine")
-st.markdown("Assess bank credit risk portfolios, evaluate Significant Increase in Credit Risk (SICR) triggers, and apply forward-looking Eurozone macroeconomic shock factors.")
+st.subheader("IFRS 9 Credit Risk Expected Credit Loss (ECL) Model")
+st.markdown("This model assesses bank credit risk portfolios, evaluates Significant Increase in Credit Risk (SICR) triggers, and applies forward-looking Eurozone macroeconomic shock factors.")
 
 st.sidebar.header("Eurozone Macro Forecast Controls")
 st.markdown("The ECB and CSSF mandate forward-looking credit assessments. Adjust the macro multiplier below to simulate structural market changes:")
