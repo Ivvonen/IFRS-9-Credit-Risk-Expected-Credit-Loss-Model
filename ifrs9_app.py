@@ -49,7 +49,7 @@ st.subheader("IFRS 9 Credit Risk Expected Credit Loss (ECL) Model")
 st.markdown("This model assesses bank credit risk portfolios, evaluates Significant Increase in Credit Risk (SICR) triggers, and applies forward-looking Eurozone macroeconomic shock factors.")
 
 st.sidebar.header("Eurozone Macro Forecast Controls")
-st.markdown("The ECB and CSSF mandate forward-looking credit assessments. Adjust the macro multiplier below to simulate structural market changes:")
+st.markdown("The ECB and CSSF mandate forward-looking credit assessments. Adjust the macro multiplier to simulate structural market changes:")
 macro_multiplier = st.sidebar.slider("Macroeconomic Stress Multiplier (PD Scaling)", 1.0, 5.0, 1.5, step=0.1)
 
 st.sidebar.subheader("Default Asset Ledger Configuration")
