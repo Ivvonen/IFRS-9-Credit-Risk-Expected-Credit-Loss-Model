@@ -44,7 +44,7 @@ class IFRS9ECLEngine:
         return self.df
 
 # --- STREAMLIT USER INTERFACE ---
-st.set_page_config(page_title="IFRS 9 Credit Risk Engine", layout="wide")
+st.set_page_config(page_title="IFRS 9 Credit Risk Model", layout="wide")
 st.subheader("IFRS 9 Credit Risk Expected Credit Loss (ECL) Model")
 st.markdown("This model assesses bank credit risk portfolios, evaluates Significant Increase in Credit Risk (SICR) triggers, and applies forward-looking Eurozone macroeconomic shock factors.")
 
