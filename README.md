@@ -1,2 +1,2 @@
-# IFRS 9 Credit Risk Expected Credit Loss (ECL) Model
+## IFRS 9 Credit Risk Expected Credit Loss (ECL) Model
 This is a credit risk model designed to map credit asset degradation, track Significant Increase in Credit Risk (SICR) triggers, and compute forward-looking capital provisions. This model implements the three-stage impairment methodology mandated under the **IFRS 9 accounting standard** and incorporates Eurozone macroeconomic scenario overlays to stress-test large-scale corporate or lending portfolios.
